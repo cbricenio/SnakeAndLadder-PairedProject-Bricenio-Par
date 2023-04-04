@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="ph.stacktrek.novare.gamenovare.bricenio.par.snakeandladder.bottomnavigation.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/listOfWinnerFragment"
+        android:name="ph.stacktrek.novare.gamenovare.bricenio.par.snakeandladder.bottomnavigation.ListOfWinnerFragment"
+        android:label="fragment_list_of_winner"
+        tools:layout="@layout/fragment_list_of_winner" />
+    <fragment
+        android:id="@+id/userProfileFragment"
+        android:name="ph.stacktrek.novare.gamenovare.bricenio.par.snakeandladder.bottomnavigation.UserProfileFragment"
+        android:label="fragment_user_profile"
+        tools:layout="@layout/fragment_user_profile" />
+</navigation>
