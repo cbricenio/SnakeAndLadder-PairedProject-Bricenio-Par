@@ -71,7 +71,10 @@ class ListOfWinnerFragment : Fragment() {
         val winnersJson = preferences.getString("winners", "[]") ?: "[]"
         val winners = Gson().fromJson(winnersJson, object : TypeToken<List<String>>() {}.type)
             as MutableList<String>
-
+        if(winners.isNotEmpty()){
+            binding.emptyListTextview.visibility = View.GONE
+            binding.emptyListImg.visibility = View.GONE
+        }
         return if (winners.size > 5){
             winners.takeLast(5).reversed()
         }else{

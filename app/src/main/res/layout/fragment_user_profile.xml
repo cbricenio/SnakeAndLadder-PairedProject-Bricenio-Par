@@ -29,16 +29,6 @@
                 android:fontFamily="monospace"
                 android:textStyle="bold"/>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginVertical="20dp"
-                android:text="PLAYER 1"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:textColor="@color/black"
-                android:fontFamily="sans-serif"
-                android:textStyle="bold"/>
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -50,29 +40,20 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.499">
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/nickname_p1"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="#FFFFFF"
-                android:hint="NICKNAME"
-                android:maxLines="1" />
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nickname_p1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:hint="P1 NICKNAME"
+                    android:textColorHint="@color/black"
+                    android:textColor="@color/black"
+                    android:maxLines="1"
+                    android:drawableStart="@drawable/baseline_person_pin_circle_p1"/>
 
             </com.google.android.material.textfield.TextInputLayout>
 
 
-
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginVertical="20dp"
-                android:text="PLAYER 2 "
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:textColor="@color/black"
-                android:fontFamily="sans-serif"
-                android:textStyle="bold"/>
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -89,21 +70,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="#FFFFFF"
-                    android:hint="NICKNAME"
-                    android:maxLines="1" />
+                    android:hint="P2 NICKNAME"
+                    android:textColorHint="@color/black"
+                    android:textColor="@color/black"
+                    android:maxLines="1"
+                    android:drawableStart="@drawable/baseline_person_pin_circle_p2"/>
 
             </com.google.android.material.textfield.TextInputLayout>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginVertical="20dp"
-                android:text="PLAYER 3 "
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:textColor="@color/black"
-                android:fontFamily="sans-serif"
-                android:textStyle="bold"/>
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -120,21 +94,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="#FFFFFF"
-                    android:hint="NICKNAME"
-                    android:maxLines="1" />
+                    android:hint="P3 NICKNAME"
+                    android:textColorHint="@color/black"
+                    android:textColor="@color/black"
+                    android:maxLines="1"
+                    android:drawableStart="@drawable/baseline_person_pin_circle_p3"/>
 
             </com.google.android.material.textfield.TextInputLayout>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginVertical="20dp"
-                android:text="PLAYER 4 "
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:textColor="@color/black"
-                android:fontFamily="sans-serif"
-                android:textStyle="bold"/>
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -151,8 +118,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="#FFFFFF"
-                    android:hint="NICKNAME"
-                    android:maxLines="1" />
+                    android:hint=" P4 NICKNAME"
+                    android:textColorHint="@color/black"
+                    android:textColor="@color/black"
+                    android:maxLines="1"
+                    android:drawableStart="@drawable/baseline_person_pin_circle_p4"/>
 
             </com.google.android.material.textfield.TextInputLayout>
 

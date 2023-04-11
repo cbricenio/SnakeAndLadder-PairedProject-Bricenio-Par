@@ -23,6 +23,33 @@
             android:fontFamily="monospace"
             android:textStyle="bold"/>
 
+        <ImageView
+            android:id="@+id/empty_list_img"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:src="@drawable/empty_list_img"
+            android:layout_gravity="center_horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/winner_id"
+            android:layout_marginTop="50dp"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/empty_list_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:text="Oops!\n Your list is empty,\n so there is nothing to show here"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:fontFamily="monospace"
+            android:textStyle="bold"/>
+
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/winners_list"
             android:layout_width="match_parent"
